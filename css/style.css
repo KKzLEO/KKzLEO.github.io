@@ -1,0 +1,225 @@
+
+html {
+    width: 100%;
+}
+
+body {
+    height: 887px;
+    width: 100%;
+    background: #edf2c5;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+}
+
+header {
+    margin: 53px auto 0 auto;
+    width: 940px;
+}
+
+nav, div {
+    display: inline-block;
+}
+
+.brand {
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #778A50;
+    font-size: 36px;
+    float: left;
+}
+
+.function-bar {
+    float: right;
+
+}
+
+.horizontal-hr {
+    width:1px;
+    height:25px;
+    margin: 0 5px;
+    display: inline-block;
+}
+
+.btn-facebook {
+    width: 25px;
+    height: 25px;
+    background: url("../img/btn_facebook.png");
+    display: inline-block;
+    margin:0 5px;
+    cursor: pointer;
+}
+
+.btn-instagram {
+    width: 25px;
+    height: 25px;
+    background: url("../img/btn_instagram.png");
+    display: inline-block;
+    margin:0 5px;
+    cursor: pointer;
+}
+
+.btn-login {
+    border: 1px solid #778A50;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #778A50;
+    font-size: 14px;
+    height: 25px;
+    width: 60px;
+    float: right;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.btn-join {
+    border: 1px solid #778A50;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #778A50;
+    font-size: 14px;
+    height: 25px;
+    width: 50px;
+    float: right;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer;
+    margin: 0 0 0 5px;
+}
+
+.navbar {
+    height: 44px;
+    width: 100%;
+    background-color: #778A50;
+    padding: 16px 30px;
+    box-sizing: border-box;
+}
+
+.navbar > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 16px;
+}
+
+.navbar > ul > li {
+    display: inline;
+    margin-right: 60px;
+    color: #EDF2C5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+section {
+    margin: 0 auto;
+    width: 940px;
+}
+
+.banner {
+    width: 940px;
+    height: 448px;
+    background: url("../img/img_main_pumpkin.png");
+    background-size: cover;
+    margin: 20px auto 30px auto;
+    display: table;
+}
+
+.content-header {
+    height: 45px;
+    width: 445px;
+    color: #EDF2C5;
+    background: #778A50;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 30px;
+    line-height: 45px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.div-align-left {
+    float: left;
+}
+
+.div-align-right {
+    float: right;
+}
+
+.img {
+    width: 140px;
+    height: 140px;
+    margin-right: 12px;
+    float: left;
+}
+
+.img-pepper {
+    background: url("../img/img_vegetables_pepper.png");
+}
+
+.img-corn {
+    background: url("../img/img_vegetables_corn.png");
+}
+
+.img-carrot {
+    background: url("../img/img_vegetables_carrot.png");
+}
+
+.contact {
+    width: 445px;
+    height: 140px;
+    background: #F7FBDA;
+    color: #7d7d7d;
+    box-sizing: border-box;
+}
+
+.contact > p {
+    margin: 16px 15px 16px 15px;
+    font-size: 12px;
+    line-height: 1.33;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact > hr {
+    width: 414px;
+    color: #7d7d7d;
+    margin: 0 auto;
+}
+
+.contact > div {
+    margin: 8px 15px 0px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.83;
+    color: #7d7d7d;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    background: #778A50;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+footer > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #EDF2C5;
+    margin-top: 24px;
+    margin-bottom: 25px;
+}
